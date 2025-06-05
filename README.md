@@ -26,24 +26,31 @@ Una aplicación web sencilla para gestionar tareas y clientes, pensada para empr
 ```bash
 git clone https://github.com/tu-usuario/gestor-tareas.git
 cd gestor-tareas
+```
 
 2. Crea y activa un entorno virtual (opcional pero recomendado):
 
+```bash
 python -m venv env
 source env/bin/activate   # En Windows usa: env\Scripts\activate
+```
 
 3. Instala las dependencias:
 
+```bash
 pip install -r requirements.txt
+```
 
 4. Ejecuta la aplicación:
 
+```bash
 python app.py
+```
 
 5. Abre tu navegador en http://localhost:5000/
 
 ## 📁 Estructura del proyecto
-
+```bash
 gestor-tareas/
 │
 ├── app.py
@@ -57,13 +64,14 @@ gestor-tareas/
 │   └── models.py
 ├── requirements.txt
 └── README.md
-
+```
 ## 🔐 Acceso
 
 Usuario demo: admin@example.com
+
 Contraseña: admin123
 
-###⚠️ Importante: cambia las credenciales en producción.
+⚠️ Importante: cambia las credenciales en producción.
 
 ## 📈 Futuras mejoras
 
